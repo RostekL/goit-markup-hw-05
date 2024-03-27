@@ -617,12 +617,15 @@ body {
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-close-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-button-close:hover,
 .modal-button-close:focus {
-  background-color: var(--ocean);
-  border: none;
   fill: #ffffff;
+  background-color: #404bbf;
+  border: none;
 }
 
 .backdrop.is-hidden {
@@ -700,7 +703,7 @@ body {
 
 .modal-form-input:focus {
   outline: none;
-  border-color: var(--iris);
+  border-color: #4d5ae5;
 }
 
 .modal-form-input:focus + .modal-form-input-icon {
@@ -739,7 +742,7 @@ body {
 
 .modal-form-message:focus {
   outline: none;
-  border-color: var(--iris);
+  border-color: #4d5ae5;
 }
 
 .modal-form-check-text {
@@ -752,9 +755,9 @@ body {
 }
 
 #user-privacy:checked + .modal-form-check-text .checkbox-span {
-  background-color: var(--ocean); /* Kolor tła */
+  background-color: #404bbf; /* Kolor tła */
   border: none; /* Wyłączenie domyślnego formatowania przycisku */
-  fill: var(--cloud);
+  fill: #f4f4fd;
 }
 
 .privacy-link {
