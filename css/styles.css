@@ -651,7 +651,9 @@ label {
   display: block;
 }
 
-.form-input:focus,
+.form-input:focus {
+  border-color: #4d5ae5;
+}
 .input-area:focus {
   border-color: #4d5ae5;
 }
