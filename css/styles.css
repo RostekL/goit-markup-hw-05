@@ -595,15 +595,11 @@ body {
   fill: #ffffff;
 }
 
-.close-btn:hover {
-  background-color: #404bbf;
-  border: none;
-}
-
 .close-btn:hover,
 .close-btn:focus {
-  background-color: #404bbf;
-  border: none;
+    fill: #ffffff;
+    background-color: #404bbf;
+    border: none;
 }
 .form-input::placeholder,
 label {
