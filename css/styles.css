@@ -568,20 +568,6 @@ body {
 }
 
 /* ============= MODAL =================================*/
-.close-icon {
-  fill: var(--navyblue);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.close-btn:hover .close-icon,
-.close-btn:focus .close-icon {
-  fill: #ffffff;
-}
-
-.close-btn:hover {
-  background-color: #404bbf;
-  border: none;
-}
-
 .close-btn {
   position: absolute;
   top: 24px;
@@ -599,6 +585,20 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.close-icon {
+  fill: var(--navyblue);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.close-btn:hover .close-icon,
+.close-btn:focus .close-icon {
+  fill: #ffffff;
+}
+
+.close-btn:hover {
+  background-color: #404bbf;
+  border: none;
+}
+
 /*.close-btn:hover,
 .close-btn:focus {
   background-color: #404bbf;
